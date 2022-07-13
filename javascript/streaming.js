@@ -1,4 +1,5 @@
-const url = 'naruto-episode-220'
+const url = window.location.pathname.replace("/", "");
+console.log(url)
 const apiURl = `https://indianime-api.herokuapp.com`;
 
 // Declaring Gobally
